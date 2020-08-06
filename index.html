@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+ <meta charset='UTF-8'>
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    width: 100%; height: 100px;
+    
+    display: flex; color: #ffffff;
+    
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+    
+}
+
+.logo h1{
+line-height: 100%;
+    padding:25px;
+}
+@media only screen and (max-width:1180px){
+  .logo h1{
+    width: 100%;
+    padding:0 2%;}
+  }  
+.menu{
+    width: 50%; height: 100px;
+
+}
+@media only screen and (max-width:1180px){
+  .menu{
+    width: 100%;
+    padding:0 2%;
+  }
+}
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(138, 130, 130);
+    text-transform: uppercase;
+    
+}
+@media only screen and (max-width:1180px){
+  .menu ul li{
+    width: 100%;
+    padding:0 2%;
+  }
+  }  
+  .menu ul li:hover {
+    border-bottom: 1px solid white;
+
+  }
+  .menu ul li:hover {
+    background:white;
+  }
+
+section{ display: flex;  }
+
+.leftside { width: 45%; height:auto; overflow: hidden; margin: 2px;}
+
+.leftside img{  width:750px;  height: 680px; 
+    opacity:0.8;
+}
+
+
+@media only screen and (max-width:1180px){
+  .leftside img{
+    width: 100%;
+    padding:0 2%;}
+  }  
+.rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
+
+.rightside h1{ text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+     } 
+
+.rightside p {  
+    font-size: 1.1rem; padding: 30px 0; }
+
+.rightside button{   font-size: 17px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    background-image: url(back/hom.jpg); 
+    border-radius: 4px 4px 4px 4px;
+    padding: 20px 35px ; 
+}
+
+.rightside button:hover{
+      background-image: url(back/abc.jpg);  
+      transition: 0.5; 
+}
+
+.index-header {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(back/hom.jpg);
+   min-width: 1024px;
+   min-height: 100%;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   height: auto;
+   width: 100%;
+   position: fixed;
+   overflow: auto;
+  width: 100%;
+    height:100%;
+
+}
+.content{
+  color: white;
+  padding: 5%;
+  text-align: center;
+}
+.content h1{
+  padding-bottom: 10px;
+font-weight: 400;
+  font-size: 40px;
+  color:rgb(208, 255, 0);
+  font-weight: 100px;
+}
+.content h2{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+  color:white;
+  
+}
+.content p{
+  word-spacing: 3px;
+  padding-bottom: 5px;
+  font-weight: solid;
+  color:springgreen;
+  font-size: 20px;
+  
+}
+.stack{
+ 
+  color: white;
+}
+.stack p{
+
+  text-align: center;
+}
+.form{
+  padding: 50px;
+}
+.label{
+  color: blue;
+}
+</style>
+</head>
+<body>
+  
+  <header class="index-header clearfix ">
+
+    <nav>
+     <div class="logo">
+      
+     </div>
+     <div class="minu"> 
+      <ul>
+       <li><a style="text-decoration: none ;color:white;" href="index.html">Home</a></li>
+       <li>  <a style="text-decoration: none ;color:white" href="About.html">About Us</a></li>
+       
+       <li>  <a  style="text-decoration: none ;color:white;" href="services.html">Services</a></li>
+       <li>  <a style="text-decoration: none ;color:white;" href="Contact.html">Contact Us</a></li>
+       
+      </ul>
+     </div>
+    </nav>
+
+<section>
+    <div class="leftside"> 
+     <img src="logo.png">
+    </div>
+    <div class="rightside"> 
+     <h1>Chopra's Group</h1>
+     <p>"No matter where you're from, your dreems are valid"</p>
+     <button> <a style="text-decoration: none ; color: white;" href="login.html">Log In/Sign Up</a></button>
+    </div>
+    
+   </section>
+<div class="stack">
+  <h1 style="padding-top: 20px;">Latest value of Top Branded companies</h1>
+  
+  <p style="border:1px solid white;height:20px;width: 500px; "> Buy asingle share of RELIANCE :-20 $ per stock</p>
+  <p style="border:1px solid white;height:20px;width: 500px; "> Buy asingle share of Barclays :-20 $ per stock</p>
+  <p style="border:1px solid white;height:20px;width: 500px; "> Buy asingle share of Chopra's Group :-20 $ per stock</p>
+  <p style="border:1px solid white;height:20px;width: 500px; "> Buy asingle share of Red Hat :-20 $ per stock</p>
+</div>
+
+
+<p style="color: turquoise; padding-top: 20px;padding-bottom: 20px;">Select item that you want to buy from a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="company">Choose a Company</label>
+  <select id="company" name="company">
+    <option value="RELIANCE">Reliance</option>
+    <option value="Barclays">Barclays</option>
+    <option value="Chopra's Group">Chopra's Group</option>
+    <option value="Red Hat">Red Hat</option>
+  </select>
+  <label for="company">Choose a Number of stocks</label>
+  <select id="company" name="company">
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+  </select>
+  <input type="submit" onclick="window.location.href='login.html';" value="GoTo "> 
+</form>
+<div class="content">
+  <h4 style="text-align:center;color:blue; font-size:100px;">EYE OPENER</h4>
+  <h1> What is a Share?</h1>
+  <p>A share is a unit of ownership in a company, mutual fund, financial asset, or trust – buying shares in a company provides the shareholder with equity in that company. Because you own a part of the company, as a shareholder you’re are entitled to a portion of the profits it makes, and these are paid out as dividends. This dividend income can be one of the ways in which shares generate returns for their holder(s).</p>
+<br>
+<p>Shares are issued by the company in question, and sold to investors for cash in an ‘initial public offer’ or ‘float’. After this initial sale, shares are then bought and sold on the stock market, unless bought back by the company at a point in the future.</p>
+<h2>Ordinary Vs preference shares</h2>
+
+<p>There are two main types of shares – common and preference. Both represent a shareholder owning a part of a company, but function in slightly different ways and give different rights to their holders.</p>
+<h2>Ordinary shares</h2>
+<p>Shareholders who hold ordinary shares are not guaranteed a dividend from the company, however ordinary shares generally appreciate in value over time, and they also carry voting privileges. Ordinary shareholders are last on the ladder in times of insolvency, meaning they may not receive a payout if a company liquidates.</p>
+<h2>Preference shares</h2>
+<p>Preference shares do not confer voting privileges by default to their owners, and tend to appreciate in value at a slower rate compared to ordinary shares. One of the key advantages is that they usually come with set payment criteria which guarantees them (subject to certain exceptions) regularly paid dividends. Preference shareholders are also prioritised ahead of ordinary shareholders; all preference shareholders must be paid before any ordinary shareholders can receive dividends. The same goes for instances of insolvency/liquidation.</p>
+<h1>How are shares bought and sold?</h1>
+<p>Shares are bought and traded on a stock exchange, and the majority of public shares are traded electronically these days- meaning buy and sell orders are placed using computers, and matched online by exchange-operated software. Buy and sell orders are the tools used by investors to move shares.
+<ul>
+  <li <a style="text-align:left; color:springgreen">A buy order is essentially an expression of interest in buying a certain quantity of shares in a certain company</a></li>
+  <li <a style="text-align:left; color:springgreen">A sell order is the opposite – it’s signalling that the person who placed the order wants to sell a certain number of shares in a certain company</a></li>
+ <li <a style="text-align:left; color:springgreen"> Once an order is filled (a buyer finds a seller or vice versa), the involved parties are then generally given a few days to conduct the transaction and move their respective funds/shares around.</a></li>
+</ul>
+  <p>You can buy and sell shares through one or both of two ways; either by engaging a full-service broker who’ll handle the majority of your business for you, or by using an online share trading platform such as CommSec, which represents a more hands-on DIY approach. You can compare a wide range of online share trading platforms with Canstar.</p>
+  
+  
+  
+  <h1>What are the benefits of shares?</h1>
+  <p>The benefits of buying shares will vary depending on your investment goals, and whether you’re wanting to trade or invest.</p>
+<h2>Want to trade?</h2>
+<p>Trading shares rather than investing in them essentially means that you’re not looking to hold onto any shares you buy for the long-term – you’re trying to profit off a short-term change in their value, sometimes as short-term as days, or even hours.
+
+  While this can be inherently more risky than holding onto shares for the long-term, it can occasionally result in quick money for the canny investor. That being said, it can also be an easy way to lose money if your shares of choice go down in value rather than up. That’s why it’s important to not just jump in and start buying shares as soon as you’ve set up your trading account. Watch the market for a while, and keep an eye on any stocks you’re interested in. That way you’ll have a good idea of when they’re up and when they’re down.</p>
+<h2>Want to invest?</h2>
+
+<p>Investing in shares for the medium or long-term can mean some investors benefit from what many perceive to be the main strength of shares and the wider stock market – over a long enough period, the market generally tends to go up. Time in the market can create significant returns</p>
+<br>
+<h3 style="text-align:center"> For our Services,Please <a  style="color:darkblue;" href="services.html">click here</a></h3>
+</div>
+
+
+
+
+</body>
+</html>
