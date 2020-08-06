@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+ <meta charset='UTF-8'>
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  
+}
+nav{
+      width: 100%; height: 100px;
+      
+      display: flex; color: #ffffff;
+      
+  }
+  
+  .logo{
+      width: 50%;
+      height: 100px;
+      
+  }
+  
+  .logo h1{
+  line-height: 100%;
+      padding:25px;
+  }
+  @media only screen and (max-width:1180px){
+    .logo h1{
+      width: 100%;
+      padding:0 2%;}
+    }  
+  .minu{
+      width: 50%; height: 100px;
+  
+  }
+  @media only screen and (max-width:1180px){
+    .minu{
+      width: 100%;
+      padding:0 2%;
+    }
+  }
+  .minu ul{
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items:  center;
+      
+  }
+  
+  .minu ul li{
+      list-style: none;
+      font-size: 12px;
+      font-weight: bold;
+      color:rgb(138, 130, 130);
+      text-transform: uppercase;
+      
+  }
+  @media only screen and (max-width:1180px){
+    .minu ul li{
+      width: 100%;
+      padding:0 2%;
+    }
+    }  
+    .minu ul li:hover {
+      border-bottom: 1px solid white;
+      
+    }
+    .minu ul li:hover {
+      color:white ;
+    }
+.service-header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(ser.jpg);
+   min-width: 1024px;
+   min-height: 100%;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   height: auto;
+   width: 100%;
+   position: fixed;
+    top: 0;
+     left: 0;
+  width: 100%;
+    height:100%;
+    border: 1px solid black;
+    overflow:scroll;
+}
+.service{
+  text-align: center;
+
+}
+.service h1{
+  font-size:80px;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.service p{
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 2px;
+  padding-top:1%;
+  padding-right: 10%;
+  padding-left:10%;
+}
+
+</style>
+</head>
+<body>
+  
+  <header class="service-header clearfix ">
+
+    <nav>
+     <div class="logo">
+      
+     </div>
+     <div class="minu"> 
+      <ul>
+       <li><a style="text-decoration: none ;color:white;" href="index.html">Home</a></li>
+       <li>  <a style="text-decoration: none ;color:white;" href="About.html">About Us</a></li>
+       
+       <li>  <a  style="text-decoration: none ;color:white;" href="services.html">Services</a></li>
+       <li>  <a style="text-decoration: none ;color:white;" href="Contact.html">Contact Us</a></li>
+       
+      </ul>
+     </div>
+    </nav>
+
+<div class="service">
+  
+<h1>What we can do with you for you</h1>
+<p>With the us, you can now get live updates from NSE, BSE and MCX markets, access world-class charting tools with advance studies, analyse stock market trends, and trade on-the-go. If you are new to trading, learn everything about investing in the share market through our learning videos.</p>
+<p>What’s more, if you feel like opening a demat account & investing in the share market; you can do so in the app itself, for no cost. we offers online stock trading at the lowest cost in India i.e. you are charged a flat fee of just Rs.20 for all your orders, across any trading segment - Cash, F&O, Currency and Commodities.</p>
+</div>
+
+</body>
+</html>
