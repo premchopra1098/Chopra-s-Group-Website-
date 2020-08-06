@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+ <meta charset='UTF-8'>
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  
+}
+nav{
+      width: 100%; height: 100px;
+     
+      display: flex; color: #ffffff;
+      
+  }
+  
+  .logo{
+      width: 50%;
+      height: 100px;
+      
+  }
+  
+  .logo h1{
+  line-height: 100%;
+      padding:25px;
+  }
+  @media only screen and (max-width:1180px){
+    .logo h1{
+      width: 100%;
+      padding:0 2%;}
+    }  
+  .minu{
+      width: 50%; height: 100px;
+  
+  }
+  @media only screen and (max-width:1180px){
+    .minu{
+      width: 100%;
+      padding:0 2%;
+    }
+  }
+  .minu ul{
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items:  center;
+      
+  }
+  
+  .minu ul li{
+      list-style: none;
+      font-size: 12px;
+      font-weight: bold;
+      color:rgb(138, 130, 130);
+      text-transform: uppercase;
+      
+  }
+  @media only screen and (max-width:1180px){
+    .minu ul li{
+      width: 100%;
+      padding:0 2%;
+    }
+    }  
+    .minu ul li:hover {
+      border-bottom: 1px solid white;
+    
+    }
+    .minu ul li:hover {
+      color: white;
+    }
+.index-header {
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(back/abcde.jpg);
+   min-width: 1024px;
+   min-height: 100%;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   height: auto;
+   width: 100%;
+   position: fixed;
+    top: 0;
+     left: 0;
+  width: 100%;
+    height:100%;
+    border: 1px solid black;
+    overflow:scroll;
+}
+
+.abt{
+  padding-left: 20%;
+  padding-bottom: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 60px;
+}
+
+</style>
+</head>
+<body>
+  
+  <header class="index-header clearfix ">
+
+    <nav>
+     <div class="logo">
+      
+     </div>
+     <div class="minu"> 
+      <ul>
+       <li><a style="text-decoration: none ;color:white;" href="index.html">Home</a></li>
+       <li>  <a style="text-decoration: none ;color:white;" href="About.html">About Us</a></li>
+       
+       <li>  <a  style="text-decoration: none ;color:white;" href="services.html">Services</a></li>
+       <li>  <a style="text-decoration: none ;color:white;" href="Contact.html">Contact Us</a></li>
+       
+      </ul>
+     </div>
+    </nav>
+
+<div class="abt">
+  <h1>About Us</h1>
+<p>Chopra's Trading  is the fastest-growing full-service discount brokerage company in the fintech space, with highly motivated team members. We offer a one-stop solution to fulfill all your evolving financial needs through cutting-edge digital platforms. Our ability to understand customer needs and expertise in implementing complex technological solutions enables us to give you a great investing experience at an unimaginably low cost!</p>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
